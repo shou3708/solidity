@@ -27,14 +27,13 @@ contract class25{
         abc = runrun();
         return msg.sender;
     }
-    function runrun() public returns(uint){
+    function runrun() public returns(uint){     //無名方法
 
         uint a = 0;
         uint b = 5;
         return a + b + abc;
     }
 
-    //無名方法
-    //payable
-    //兩種方法return
+ 
+    
 }
