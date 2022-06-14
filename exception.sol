@@ -24,10 +24,10 @@ contract class27{
 
     uint public abc = 0;
     address public owner = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4; 
-    //簡單的保護 只限定owner
+    //保護 限定owner
     function fu_abc() public
     {
-        require(owner == msg.sender,"使用者錯誤！！");//限制方法的安全性
+        require(owner == msg.sender,"使用者錯誤！！");//限制方法
             abc++;
     
     }
