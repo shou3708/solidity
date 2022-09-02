@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract class44_game{
+contract game{
 
     event win(address);
 
