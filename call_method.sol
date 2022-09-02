@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract class22{
+contract callmethod{
     
     uint256 public integer_1 = 1;
     uint256 public integer_2 = 2;
