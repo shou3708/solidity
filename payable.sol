@@ -1,5 +1,5 @@
 pragma solidity ^0.4.24;
-contract class25{    
+contract payable{    
     mapping(address=>uint) public balances;
 
     uint public abc = 0;
